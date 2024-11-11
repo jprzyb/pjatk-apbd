@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".idea\.idea.APBD_04\.idea\.gitignore" />
+      <Content Include=".idea\.idea.APBD_04\.idea\encodings.xml" />
+      <Content Include=".idea\.idea.APBD_04\.idea\indexLayout.xml" />
+      <Content Include=".idea\.idea.APBD_04\.idea\projectSettingsUpdater.xml" />
+      <Content Include=".idea\.idea.APBD_04\.idea\workspace.xml" />
+      <Content Include="APBD_04.sln" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.3.24172.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="9.0.0-preview.3.24172.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    </ItemGroup>
+
+</Project>
